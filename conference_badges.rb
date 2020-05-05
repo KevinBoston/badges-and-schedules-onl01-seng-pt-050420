@@ -9,7 +9,7 @@ end
 def batch_badge_creator(names)
   badge_messages = []
   names.map do |name|
-    badge_messages << badge_maker(name)
+    "Hello, my name is #{name}."
   end
   badge_messages
 end
