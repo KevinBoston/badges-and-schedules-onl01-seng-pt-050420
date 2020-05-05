@@ -16,8 +16,8 @@ end
 def assign_rooms(names)
   room = 1
   rooms = []
-  names.each do |name|
-    rooms << "Hello, #{name}! You'll be assigned to room #{room}!"
+  names.map do |name|
+    "Hello, #{name}! You'll be assigned to room #{room}!"
     room += 1
   end
 end
