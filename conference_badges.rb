@@ -7,11 +7,9 @@ end
 
 
 def batch_badge_creator(names)
-  badge_messages = []
   names.map do |name|
     "Hello, my name is #{name}."
   end
-  badge_messages
 end
 
 
